@@ -5,7 +5,6 @@ def check():
     ori = var1.get()
     b = TextBlob(ori)
     var2.set(b.correct())
-
 root=Tk()
 root.title('Spelling checker')
 root.geometry('400x200')
