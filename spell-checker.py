@@ -1,6 +1,6 @@
+from tkinter import * 
 from textblob import TextBlob
 
-from tkinter import * 
 def check():
     ori = var1.get()
     b = TextBlob(ori)
